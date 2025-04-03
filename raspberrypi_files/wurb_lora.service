@@ -1,0 +1,14 @@
+[Unit]
+Description=CloudedBats WURB-LoRa. 
+After=network.target
+### Before=nginx.service
+
+[Service]
+Restart=always
+TimeoutStopSec=10s
+User=wurb
+WorkingDirectory=/home/wurb/wurb_lora
+ExecStart=/home/wurb/wurb_lora/venv/bin/python3 /home/wurb/wurb_lora/lora_main.py
+
+[Install]
+WantedBy=multi-user.target
