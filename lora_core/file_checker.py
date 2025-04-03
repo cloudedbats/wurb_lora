@@ -33,7 +33,8 @@ class FileChecker:
 
     def configure(self):
         """ """
-        self.check_path = "."
+        # self.check_path = "."
+        self.check_path = "/home/wurb/wurb_recordings"
 
     async def startup(self):
         """ """
