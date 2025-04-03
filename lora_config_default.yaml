@@ -1,0 +1,5 @@
+lora:
+  start_at_command: +++
+  delay_after_start_at_s: 0.2 
+  at_commands: 
+    - abc
