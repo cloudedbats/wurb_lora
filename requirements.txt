@@ -1,4 +1,6 @@
 
+--prefer-binary
+
 pyserial
 pyyaml
 watchdog
